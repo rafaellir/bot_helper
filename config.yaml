@@ -1,0 +1,16 @@
+browser:
+  headless: false
+plurall:
+  question_url_keyword: "plurall.net"
+  selectors:
+    question_text: "div[class*='question']"
+    objective_options: "label"
+    answer_input: "textarea"
+    send_button: "text=Enviar resposta"
+    confirm_button: "text=Confirmar"
+login:
+  acessar_button: "Acessar"
+  aluno_button: "Aluno"
+  google_button: "Fazer Login com o Google"
+  next_button: "Próximo"
+  other_account: "Usar outra conta"
